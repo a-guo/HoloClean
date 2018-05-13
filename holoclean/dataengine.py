@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from pyspark.sql.types import *
+from sys import exit
 from global_variables import GlobalVariables
 from utils.reader import Reader
 import psycopg2
